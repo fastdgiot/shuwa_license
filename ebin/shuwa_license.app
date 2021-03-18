@@ -1,0 +1,13 @@
+{application,shuwa_license,
+             [{description,[25968,34521,25480,26435,31649,29702]},
+              {vsn,"4.0.0"},
+              {registered,[]},
+              {mod,{shuwa_license_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[license_loader,license_sup,license_trigger,
+                        license_worker,shuwa_license_app,
+                        shuwa_license_handler,shuwa_license_sup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
